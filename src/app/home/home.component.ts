@@ -15,7 +15,7 @@ import {Onderwerp} from '../onderwerp';
   imports: [CommonModule, PlaatjeComponent, MatFormFieldModule, MatInputModule, MatSelectModule],
   template: `
   <section>
-      <label>onderwerp</label>
+
       <select class= "button"  #filter (change)="filterResults(filter.value)">
         <option value='keuze' selected>onderwerp</option>
         <option value='corona'>corona</option>

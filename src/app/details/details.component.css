@@ -2,12 +2,10 @@
   height: 600px;
   width: 50%;
   object-fit: cover;
-  border-radius: 30px;
   float: right;
 }
 .listing-heading {
-  font-size: 48pt;
-  font-weight: bold;
+  font-size: 24pt;
   margin-bottom: 15px;
 }
 .listing-location::before {
